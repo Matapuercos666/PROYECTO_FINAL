@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1661904916 source:c:\users\zonoo\documents\escuela\programacion\proyecto final\main.cpp
+	<iostream>
+	"edit.h"
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	"UNAMIPN.cpp"
+
+1516765576 c:\users\zonoo\documents\escuela\programacion\proyecto final\edit.h
+	<windows.h>
+	<stdlib.h>
+
+1526793624 c:\users\zonoo\documents\escuela\programacion\proyecto final\unamipn.cpp
+
