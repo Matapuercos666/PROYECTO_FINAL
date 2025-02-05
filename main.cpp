@@ -1,9 +1,7 @@
 #include <iostream>
+#include <cmath>
 #include "edit.h"// este documento se agreg� a la carpeta del programa desde fuera para tener acceso a la funcion gotoxy
 #include <conio.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h> //libreria de funciones matematicas.
 #include <windows.h>
 #include "UNAMIPN.cpp"//este es una portada que hicimos en otro programa y solo agregamos por medio de un archivo
 
@@ -151,7 +149,6 @@ void centro()
 {
     int i,x,z=0;
     float promsem[48],prommens[12],suma=0,mayor;
-    system("cls");
     p("\n\n\t introduce el promedio de la semana: ");
     for(i=0;i<12;i++)
     {
@@ -358,7 +355,7 @@ void cine(void)
 void cinecito(void)
 
 {
-    int x, opcion;
+    int opcion;
     do
     {
        p("\n\n\t\t\t que desea hacer?\n\t\t\t\t 1: sala normal\n\t\t\t\t 2: sala 3D ");
